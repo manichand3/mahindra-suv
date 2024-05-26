@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.our-suvs{
+margin-left:45%;
+}
+.main-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px; 
+  height: 150px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.car-container{
+  background-color: rgb(52, 53, 54);
+  border-radius:20px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.grid-block {
+  border: 5px solid black;
+}
+.car-preview{
+  padding-left:40px;
+  
+}
+.car-name{
+  font-size: 30px;
+  font-weight: 500;
+}
+.car-price{
+  font-size: 20px;
+  font-weight:400;
+}
+.explore-button{
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+.show-room-add{
+  font-size: 20px;
+  font-weight: 500;
+}

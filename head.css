@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding-bottom: 1000px;
+}
+.header{
+  display: flex;
+  /* position: fixed; */
+  height: 100px;
+  width: 100%;
+  justify-content:space-between;
+  align-items: center;
+  background-color: rgb(37, 36, 35);
+}
+.suv-logo{
+  width:60%;
+  height:60%;
+}
+.left-section{
+margin-left:50px;
+}
+.middle-section{
+  display: flex;
+  /* justify-content:center; */
+  column-gap:25px;
+  margin-right: 200px;
+}
+.right-section{
+  margin-right: 50px;
+}
+.middle-elements{
+  text-decoration: none;
+  color: azure;
+}
+.middle-elements:hover{
+color: bisque;
+}

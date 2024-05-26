@@ -1,0 +1,48 @@
+.body-grid{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  margin-top: 50px;
+  margin-left:150px;
+  margin-right:150px;
+}
+
+.grid-layout{
+  margin-bottom:50px;
+  border-radius: 30px;
+  background-color: rgb(54, 52, 52);
+  margin-right:20px;
+}
+.more-info{
+  padding-bottom:10px;
+}
+.explore,
+.text-drive{
+padding: 10px 20px;
+border-radius: 20px;
+border: none;
+}
+.explore:hover,
+.text-drive:hover{
+background-color: black;
+color: aliceblue;
+cursor: pointer;
+}
+.explore{
+  margin-left: 40px;
+}
+p{
+  margin-left:50px;
+}
+
+.car-name{
+  font-size:30px;
+  margin-bottom:10px;
+}
+.car-price{
+  font-size: 20px;
+  margin-top: 5px;
+}
+.car-location{
+  font-size:18px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
